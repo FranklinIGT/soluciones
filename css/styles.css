@@ -7,6 +7,27 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color:#01BF9B;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background:rgb(42, 44, 46);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#01BF9B;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #01BF9B;
+}
+
+
 h1,h2,h3,h4,h5,h6{
     font-weight: 600;
     text-transform: uppercase;
