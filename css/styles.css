@@ -9,7 +9,7 @@ body{
 
 body::-webkit-scrollbar {
     width: 8px;
-    background-color:#01BF9B;
+    background-color:#42BFDD;
 }
 
 /* Track */
@@ -19,12 +19,12 @@ body::-webkit-scrollbar {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background:#01BF9B;
+    background:#42BFDD;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #01BF9B;
+    background: #42BFDD;
 }
 
 
@@ -40,6 +40,13 @@ section{
     padding-top: 80px;
     padding: 80px;
 }
+.margin-none{
+    width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+}
+
 
 #nav{
     background-color: black;
@@ -65,7 +72,7 @@ section{
     color: white;
  }
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
-    color:#01BF9B;
+    color:#42BFDD;
 }
 .logo-span{
     color:#0076BC;
@@ -79,6 +86,7 @@ section{
     display:flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .overlay{
@@ -87,6 +95,7 @@ section{
 }
 
 .primary-title{
+    font-weight:900;
     color: #0076BC;
 }
 
@@ -110,19 +119,19 @@ section{
 }
 
 .btn-primary{
-    background-color: #01BF9B;
-    border-color: #01BF9B;
+    background-color: #42BFDD;
+    border-color: #42BFDD;
     border-radius: 100px;
 }
 
 .btn-primary:hover{
     background-color: transparent;
-    border-color: #01BF9B;
+    border-color: #42BFDD;
 }
 
 #quienes{
-    background: rgb(69,208,182);
-    background: linear-gradient(135deg, rgba(69,208,182,1) 0%, rgba(255,255,255,1) 12%, rgba(255,255,255,1) 72%, rgba(69,208,182,1) 100%);
+    background:#42BFDD;
+    background: linear-gradient(135deg, #42BFDD 0%, rgba(255,255,255,1) 12%, rgba(255,255,255,1) 72%, #42BFDD 100%);
     height: 100%;
 }
 .img-container{
@@ -131,7 +140,7 @@ section{
 .img-quienes{
     transition: all .8s;
     transform: rotateY(-45deg);
-    height: 500px;
+    height: 350px;
 }
 
 .img-quienes:hover{
@@ -158,12 +167,13 @@ section{
     width: 3px;
     height: 45px;
     
-    background-color:#01BF9B;
+    background-color:#42BFDD;
   }
 
   .p-quienes{
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(122, 122, 122);
+    text-shadow: 4px 2px 4px rgba(0,0,0,0.45);
   }
 
   #servicios{
@@ -180,7 +190,7 @@ section{
 .icon-box{
     height: 80px;
     width: 80px;
-    background-color: #01BF9B;
+    background-color: #42BFDD;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -213,7 +223,7 @@ section{
 }
 
 .planestable h2{
-    color: #01BF9B;
+    color: #42BFDD;
 
 }
 .planestable ul{
@@ -228,7 +238,7 @@ section{
 
 .footer-hr{
     width: 60px; 
-    background-color: #01BF9B; 
+    background-color: #42BFDD; 
     height: 2px
 }
 
